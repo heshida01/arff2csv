@@ -1,0 +1,2 @@
+usage
+java -jar arff2csv.jar inputfile.arff outputfile.csv
