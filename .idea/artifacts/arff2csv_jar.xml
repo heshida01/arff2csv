@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="arff2csv:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/arff2csv_jar</output-path>
+    <root id="archive" name="arff2csv.jar">
+      <element id="module-output" name="arff2csv" />
+    </root>
+  </artifact>
+</component>
