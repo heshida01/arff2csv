@@ -19,7 +19,7 @@ public class arff2csv {
                 continue;
             }
             lineString=lineString.split("@")[1].split(" ")[0]+lineString.split("@")[1].split(" ")[1];
-            System.out.println(lineString);
+           
             bufferedWriter.write(lineString+",");
             lineString = bufferedReader.readLine();
 
@@ -45,5 +45,6 @@ public class arff2csv {
 
         bufferedReader.close();
         bufferedWriter.close();
+        System.out.println("done!");
     }
 }
